@@ -1,0 +1,47 @@
+body{
+    font-family: sans-serif;
+}
+
+h1{
+    border: solid 5px black;
+    text-align: center;
+    text-transform: uppercase ;
+}
+
+p{
+    text-align: justify;
+}
+p.prim{
+    border-left: double 15px red;
+    border-top: double 15px red;    
+}
+
+p.seg{
+    border-color: blue green;
+    border-width: 5px 10px 20px 40px;
+    border-style: dashed;
+}
+
+p.ter{
+    border-color: gold;
+    border-width: 20px 5px;
+    border-style: double;
+}
+
+p.cuar{
+    border-color: lime black blue;
+    border-width: 10px;
+    border-style: dashed solid none;
+}
+
+p.quin{
+    border-color: red black black;
+    border-width: 15px;
+    border-style: dashed solid dotted;
+}
+
+p.sex{
+    border-color: black black black red;
+  border-width: 5px 20px 10px;
+  border-style: dotted solid dashed double;
+}
